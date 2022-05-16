@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load bootstrap3 %}
+
+{% block content %}
+
+<div class="container">
+  <h1>Sign Up</h1>
+  <form method="POST">
+    {% csrf_token %}
+    {% if messages %}
+
+      {% for message in messages %}
+      <div class="alert alert-info">
+        {{ message }}
+      </div>
+      {% endfor %}
+
+    {% endif %}
+
+
+    {% bootstrap_form form %}
+    <input type="submit" class="btn btn-default" value="Sign Up">
+
+  </form>
+</div>
+
+{% endblock %}
