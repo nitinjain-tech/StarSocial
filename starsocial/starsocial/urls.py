@@ -30,6 +30,11 @@ urlpatterns = [
     path('posts/',include('posts.urls',namespace='posts')),
     path('groups/',include('groups.urls',namespace='groups')),
 
+<<<<<<< HEAD
     # path(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}),
     # path(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
+=======
+#     path(r'^media/(?P<path>.*)$', serve,{'document_root': settings.MEDIA_ROOT}),
+#     path(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
+>>>>>>> 5f69575831aafb1776a84894c490b3b1dffb0b90
 ]
