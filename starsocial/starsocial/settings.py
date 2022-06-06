@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-f7=qtdq*!w(&4*e9&k621-k&5i!brysnl_rx+vc4iv_6xr2=jl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['']
+ALLOWED_HOSTS = ['127.0.0.1','https://starsocial-ndj.herokuapp.com']
 
 
 # Application definition
