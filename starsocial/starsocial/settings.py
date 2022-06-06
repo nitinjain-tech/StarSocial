@@ -24,9 +24,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'django-insecure-f7=qtdq*!w(&4*e9&k621-k&5i!brysnl_rx+vc4iv_6xr2=jl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['']
+ALLOWED_HOSTS = ['starsocial-ndj.herokuapp.com']
 
 
 # Application definition
