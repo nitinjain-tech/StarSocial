@@ -1,9 +1,15 @@
 asgiref 
 certifi==2021.10.8
 cffi==1.15.0
+<<<<<<< HEAD
+dj-database-url==0.5.0
+Django @ file:///tmp/build/80754af9/django_1625585912945/work
+=======
 Django 
+>>>>>>> 3bdb6c72246ce4afa507ec4a44ccdc7f5572674b
 django-bootstrap3==21.2
 django-braces==1.15.0
+django-heroku==0.3.1
 gunicorn==20.1.0
 misaka==2.1.1
 psycopg2 

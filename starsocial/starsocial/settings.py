@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-f7=qtdq*!w(&4*e9&k621-k&5i!brysnl_rx+vc4iv_6xr2=jl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['starsocial-ndj.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','starsocial-ndj.herokuapp.com']
 
 
 # Application definition
@@ -124,7 +124,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS  = [os.path.join(BASE_DIR,'static')]
+STATIC_ROOT  = os.path.join(BASE_DIR,'static')
 
 # STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
