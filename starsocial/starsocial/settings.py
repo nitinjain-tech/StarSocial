@@ -141,4 +141,4 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'starsocialx@gmail.com'
-EMAIL_HOST_PASSWORD = 'eiqniflacpfjzzua'
+EMAIL_HOST_PASSWORD = 'kfjslsyhooyiregz'
