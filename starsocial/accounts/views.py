@@ -123,7 +123,7 @@ class Error(TemplateView):
 
 def send_mail_after_registration(email,auth_token):
     subject = "Verify your Star-Social account!"
-    message = f'Hi! Click the link to verify your account:  https://starsocial-ndj.herokuapp.com/accounts/verify/{auth_token}'
+    message = f'Hi! Click the link to verify your account:  https://starsocialx.herokuapp.com/accounts/verify/{auth_token}'
     email_from = settings.EMAIL_HOST_USER
     receipient_list = [email]
     send_mail(subject,message,email_from,receipient_list)
